@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".Contest_Standing"
+    android:orientation="vertical"
+    android:scrollbars="vertical">
+    <com.toptoche.searchablespinnerlibrary.SearchableSpinner
+        android:id="@+id/spinner"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:backgroundTint="@color/purple_700"
+        android:background="@color/cardview_dark_background"
+        android:popupBackground="@color/purple_700"
+        />
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <CheckBox
+            android:id="@+id/unofficial"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Unofficial"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:layout_marginLeft="10dp"
+            />
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="fill_parent" android:layout_height="fill_parent"
+        android:scrollbars="vertical">
+
+        <HorizontalScrollView
+            android:layout_width="fill_parent" android:layout_height="fill_parent">
+
+            <TableLayout
+                android:id="@+id/table" android:layout_width="match_parent"
+                android:layout_height="fill_parent"
+                android:background="#000000"/>
+
+        </HorizontalScrollView>
+
+    </ScrollView>
+</LinearLayout>

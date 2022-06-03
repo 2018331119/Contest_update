@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "475595322757",
+    "project_id": "cp-diary",
+    "storage_bucket": "cp-diary.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:475595322757:android:f99a941e5d0b4364fc40ec",
+        "android_client_info": {
+          "package_name": "com.example.cpdiary"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "475595322757-s53ovogcfpckkrd3af2g08cn0d7feioe.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAVOLLwkhkuaI-Bo2PjFX4hFdDdA5TP5QY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "475595322757-s53ovogcfpckkrd3af2g08cn0d7feioe.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
